@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>DoorLock Open Site</title>
+  <meta name="viewport" content = "width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="css/LoginPage.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1b41718e49.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <img class="wave" src="img/wave.png">
+    <div class = "container">
+      <div class = "img">
+        <img src="img/unlock.svg">
+      </div>
+      <div class="login-container">
+        <form class = "" action="/login" method = "post">
+          <img class = "lock" src="img/lock.svg">
+          <h2>Welcome</h2>
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-user"></i>
+            </div>
+            <div>
+              <h5>Username</h5>
+              <input class = "input" name = "id" placehold = "id" type="text" value = "">
+            </div>
+          </div>
+          <div class="input-div two">
+            <div class="i">
+              <i class="fas fa-lock"></i>
+            </div>
+            <div>
+              <h5>Password</h5>
+              <input class = "input" type="password" name = "password" placehold="id" value = "">
+            </div>
+          </div>
+          <a href="/signup">Sign Up</a>
+          <input type="submit" class ="btn" name = "login" value="Login">
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/LoginPage.js"></script>
+    </body>
+</html>
