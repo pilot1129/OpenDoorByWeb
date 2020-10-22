@@ -1,0 +1,5 @@
+#ifndef ISO7816_ARDUINO_COMPAT_H
+#define ISO7816_ARDUINO_COMPAT_H
+
+
+#endif
