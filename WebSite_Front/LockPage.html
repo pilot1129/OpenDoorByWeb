@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DoorLock Open Site</title>
+        <meta name="viewport" content = "width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="css/LockPage.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1b41718e49.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-1.12.4.min.js"></script>
+        </head>
+    <body>
+        <div class="wrapper" id="wrapper">
+            <div class="base">
+                <div class="base-bottom">
+                </div>
+                <div class="lock-inside-top">
+                </div>
+                <div class="lock-inside-bottom">
+                </div>
+            </div>
+            <div class="lock-circle">
+                <div class="lock-circle-inside">
+                </div>
+            </div>
+            <div class="lock-box">
+            </div>
+        </div>
+        <script>
+            $("#wrapper").on("click", function(){
+                $(".lock-circle").removeClass("unlock-circle");
+                $(".lock-box").removeClass("unlock-box");
+
+                $(".lock-circle").addClass("unlock-circle");
+                $(".lock-box").addClass("unlock-box");
+            });
+        </script>
+    </body>
+</html>
+
+
